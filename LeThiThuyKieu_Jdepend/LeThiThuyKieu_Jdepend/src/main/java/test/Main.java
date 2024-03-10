@@ -15,7 +15,7 @@ import jdepend.xmlui.JDepend;
 public class Main {
 	public static void main(String[] args) throws IOException {
 		JDepend depend = new JDepend(new PrintWriter("report/report.xml"));
-		depend.addDirectory("D:\\KT&TKPM\\ThucHanh\\LeThiThuyKieu_Jdepend\\Library-Assistant-master");
+		depend.addDirectory("D:\\KT_TKPM\\ThucHanh\\LeThiThuyKieu_Jdepend\\Library-Assistant-master");
 		depend.analyze();
 		System.out.println("DONE");
 	}
