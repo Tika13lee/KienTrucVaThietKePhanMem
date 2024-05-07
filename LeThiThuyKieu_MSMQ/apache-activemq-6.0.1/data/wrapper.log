@@ -1,0 +1,132 @@
+STATUS | wrapper  | 2024/03/16 09:09:17 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/03/16 09:09:17 | Launching a JVM...
+INFO   | jvm 1    | 2024/03/16 09:09:17 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/03/16 09:09:17 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/03/16 09:09:17 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/03/16 09:09:17 | 
+INFO   | jvm 1    | 2024/03/16 09:09:17 | Java Runtime: Oracle Corporation 17.0.10 C:\Program Files\Java\jdk-17
+INFO   | jvm 1    | 2024/03/16 09:09:17 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2024/03/16 09:09:17 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\..\\conf\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=xpLKxHGDt7p3oCDZ -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=4752 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/03/16 09:09:17 | Extensions classpath:
+INFO   | jvm 1    | 2024/03/16 09:09:17 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2024/03/16 09:09:17 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2024/03/16 09:09:17 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2024/03/16 09:09:17 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2024/03/16 09:09:17 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2024/03/16 09:09:18 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\KT_TKPM\ThucHanh\LeThiThuyKieu_MSMQ\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[D:\KT_TKPM\ThucHanh\LeThiThuyKieu_MSMQ\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | PListStore:[D:\KT_TKPM\ThucHanh\LeThiThuyKieu_MSMQ\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Apache ActiveMQ 6.0.1 (localhost, ID:THUYKIEU-56408-1710554959388-0:1) is starting
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Listening for connections at: tcp://THUYKIEU:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Listening for connections at: amqp://THUYKIEU:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Listening for connections at: stomp://THUYKIEU:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Listening for connections at: mqtt://THUYKIEU:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@6c429005{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Listening for connections at ws://THUYKIEU:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Connector ws started
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | Apache ActiveMQ 6.0.1 (localhost, ID:THUYKIEU-56408-1710554959388-0:1) started
+INFO   | jvm 1    | 2024/03/16 09:09:19 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2024/03/16 09:09:20 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2024/03/16 09:09:20 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2024/03/16 09:25:58 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/03/16 09:25:58 | Launching a JVM...
+INFO   | jvm 1    | 2024/03/16 09:25:58 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/03/16 09:25:58 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/03/16 09:25:58 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/03/16 09:25:58 | 
+INFO   | jvm 1    | 2024/03/16 09:25:59 | Java Runtime: Oracle Corporation 17.0.10 C:\Program Files\Java\jdk-17
+INFO   | jvm 1    | 2024/03/16 09:25:59 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2024/03/16 09:25:59 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\..\\conf\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=MgGnfCmVzXlmFljG -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=1440 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/03/16 09:25:59 | Extensions classpath:
+INFO   | jvm 1    | 2024/03/16 09:25:59 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2024/03/16 09:25:59 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2024/03/16 09:25:59 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2024/03/16 09:25:59 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2024/03/16 09:25:59 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2024/03/16 09:25:59 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\KT_TKPM\ThucHanh\LeThiThuyKieu_MSMQ\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[D:\KT_TKPM\ThucHanh\LeThiThuyKieu_MSMQ\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | PListStore:[D:\KT_TKPM\ThucHanh\LeThiThuyKieu_MSMQ\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Apache ActiveMQ 6.0.1 (localhost, ID:THUYKIEU-56629-1710555960610-0:1) is starting
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Listening for connections at: tcp://THUYKIEU:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Listening for connections at: amqp://THUYKIEU:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Listening for connections at: stomp://THUYKIEU:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Listening for connections at: mqtt://THUYKIEU:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2024/03/16 09:26:00 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2024/03/16 09:26:01 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@462264aa{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 1    | 2024/03/16 09:26:01 |  INFO | Listening for connections at ws://THUYKIEU:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/16 09:26:01 |  INFO | Connector ws started
+INFO   | jvm 1    | 2024/03/16 09:26:01 |  INFO | Apache ActiveMQ 6.0.1 (localhost, ID:THUYKIEU-56629-1710555960610-0:1) started
+INFO   | jvm 1    | 2024/03/16 09:26:01 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2024/03/16 09:26:01 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2024/03/16 09:26:01 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2024/03/17 21:16:31 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/03/17 21:16:31 | Launching a JVM...
+INFO   | jvm 1    | 2024/03/17 21:16:31 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/03/17 21:16:32 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/03/17 21:16:32 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/03/17 21:16:32 | 
+INFO   | jvm 1    | 2024/03/17 21:16:32 | Java Runtime: Oracle Corporation 17.0.10 C:\Program Files\Java\jdk-17
+INFO   | jvm 1    | 2024/03/17 21:16:32 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2024/03/17 21:16:32 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\..\\conf\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=_EEeX3mPNWCUH8mp -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=16308 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/03/17 21:16:32 | Extensions classpath:
+INFO   | jvm 1    | 2024/03/17 21:16:32 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2024/03/17 21:16:32 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2024/03/17 21:16:32 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2024/03/17 21:16:32 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2024/03/17 21:16:32 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2024/03/17 21:16:40 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\KT_TKPM\ThucHanh\LeThiThuyKieu_MSMQ\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[D:\KT_TKPM\ThucHanh\LeThiThuyKieu_MSMQ\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | PListStore:[D:\KT_TKPM\ThucHanh\LeThiThuyKieu_MSMQ\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Apache ActiveMQ 6.0.1 (localhost, ID:THUYKIEU-54732-1710685001613-0:1) is starting
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Listening for connections at: tcp://THUYKIEU:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Listening for connections at: amqp://THUYKIEU:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Listening for connections at: stomp://THUYKIEU:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Listening for connections at: mqtt://THUYKIEU:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@37d2f9d5{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Listening for connections at ws://THUYKIEU:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Connector ws started
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | Apache ActiveMQ 6.0.1 (localhost, ID:THUYKIEU-54732-1710685001613-0:1) started
+INFO   | jvm 1    | 2024/03/17 21:16:41 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2024/03/17 21:16:42 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2024/03/17 21:16:42 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
