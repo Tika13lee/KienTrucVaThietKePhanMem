@@ -1,0 +1,5 @@
+rootProject.name = "LeThiThuyKieu_Microkernel"
+include 'TuDien'
+include 'TuDienTiengViet'
+include 'TuDienTiengAnh'
+
