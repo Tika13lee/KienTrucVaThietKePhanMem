@@ -1,0 +1,26 @@
+2024-05-08 15:03:56,044 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\KT_TKPM\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-05-08 15:03:56,057 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[D:\KT_TKPM\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-05-08 15:03:56,101 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2024-05-08 15:03:56,102 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2024-05-08 15:03:56,461 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-05-08 15:03:56,463 | INFO  | PListStore:[D:\KT_TKPM\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2024-05-08 15:03:56,463 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-05-08 15:03:56,463 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-05-08 15:03:56,665 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:THUYKIEU-55181-1715155436489-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-05-08 15:03:56,704 | INFO  | Listening for connections at: tcp://THUYKIEU:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-05-08 15:03:56,705 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-05-08 15:03:56,713 | INFO  | Listening for connections at: amqp://THUYKIEU:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-05-08 15:03:56,715 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-05-08 15:03:56,722 | INFO  | Listening for connections at: stomp://THUYKIEU:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-05-08 15:03:56,723 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-05-08 15:03:56,732 | INFO  | Listening for connections at: mqtt://THUYKIEU:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-05-08 15:03:56,733 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-05-08 15:03:56,747 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-05-08 15:03:56,884 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-05-08 15:03:57,126 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@4980bd44{/,null,STARTING} has uncovered HTTP methods for the following paths: [/] | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2024-05-08 15:03:57,262 | INFO  | Listening for connections at ws://THUYKIEU:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2024-05-08 15:03:57,262 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-05-08 15:03:57,263 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:THUYKIEU-55181-1715155436489-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-05-08 15:03:57,263 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-05-08 15:03:59,037 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-05-08 15:03:59,038 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
